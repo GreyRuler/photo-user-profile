@@ -1,1 +1,26 @@
+.avatars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
 
+.avatars > * {
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.avatar-pre {
+    height: 150px;
+    width: 150px;
+}
+
+.avatar-last {
+    height: 200px;
+    width: 200px;
+}
+
+.avatar-other {
+    height: 100px;
+    width: 100px;
+}
